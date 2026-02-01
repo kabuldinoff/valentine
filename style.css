@@ -1,0 +1,31 @@
+body {
+    background-color: #e44271;
+    font-family: fantasy;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+}
+
+.panel {
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-group {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    background-color: #840527;
+    border-radius: 25px;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 10px 15px;
+}
