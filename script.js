@@ -6,6 +6,10 @@ yesBtn.addEventListener('click', () => {
     window.location.href = 'yes.html';
 });
 
+noBtn.addEventListener('click', () => {
+    window.location.href = 'no.html';
+});
+
 noBtn.addEventListener( 'mouseover', () => {
     const btnWidth = noBtn.offsetWidth;
     const btnHeight = noBtn.offsetHeight;
