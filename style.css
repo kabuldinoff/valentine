@@ -1,11 +1,15 @@
 body {
-    background-color: #e44271;
+    background-color: #F8C8DC;
     font-family: fantasy;
-}
-
-.outer {
+    margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+img.heart {
+    height: 250px;
 }
 
 .panel {
@@ -15,17 +19,34 @@ body {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    gap: 10px;
 }
 
 .btn-group {
     display: flex;
-    gap: 15px;
+    gap: 30px;
 }
 
 .btn {
-    background-color: #840527;
     border-radius: 25px;
     color: aliceblue;
     font-size: 15px;
     padding: 10px 15px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.btn-yes {
+    background-color: #9F2B68;
+}
+
+.btn-no {
+    background-color: #C0C0C0;
 }
