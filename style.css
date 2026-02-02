@@ -86,6 +86,11 @@ img.heart {
     overflow: hidden;
 }
 
+.panel-yes {
+    position: unset;
+    z-index: auto;
+}
+
 /* fireworks animation */
 
 @keyframes firework {
